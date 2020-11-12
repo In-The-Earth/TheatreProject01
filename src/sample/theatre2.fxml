@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Theatre2Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#222222" height="600.0" stroke="BLACK" strokeType="INSIDE" width="800.0" />
+      <Button fx:id="btn_back" alignment="TOP_LEFT" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleGoBtn_backOnAction" prefHeight="35.0" prefWidth="69.0" style="-fx-background-color: transparent;" text="back" textFill="#f2ff00">
+         <graphic>
+            <ImageView fx:id="ya" fitHeight="33.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3d3d3" height="101.0" layoutY="499.0" stroke="BLACK" strokeType="INSIDE" width="800.0" />
+      <ImageView fx:id="cr" fitHeight="55.0" fitWidth="89.0" layoutX="31.0" layoutY="522.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="102.0" layoutY="532.0" prefHeight="35.0" prefWidth="106.0" text="250 baht.-">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <GridPane layoutX="127.0" layoutY="142.0" prefHeight="286.0" prefWidth="412.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="55.0" prefWidth="55.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="55.0" prefWidth="55.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="55.0" prefWidth="55.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="55.0" prefWidth="55.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="55.0" prefWidth="55.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="55.0" prefWidth="55.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="55.0" prefWidth="55.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="55.0" prefWidth="55.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="55.0" prefWidth="55.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="55.0" prefWidth="55.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button fx:id="D2" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="E2" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="1" />
+            <Button fx:id="E3" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="2" />
+            <Button fx:id="E4" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="3" />
+            <Button fx:id="E5" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="4" />
+            <Button fx:id="E6" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="5" />
+            <Button fx:id="E7" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="6" />
+            <Button fx:id="E8" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="7" />
+            <Button fx:id="E9" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="8" />
+            <Button fx:id="E10" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="9" />
+            <Button fx:id="D3" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="D4" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button fx:id="D5" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Button fx:id="D6" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Button fx:id="D7" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Button fx:id="D8" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+            <Button fx:id="D9" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+            <Button fx:id="D10" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+            <Button fx:id="C2" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="C3" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="C4" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button fx:id="C5" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Button fx:id="C6" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Button fx:id="C7" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Button fx:id="C8" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+            <Button fx:id="C9" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+            <Button fx:id="C10" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+            <Button fx:id="B2" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button fx:id="B3" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button fx:id="B4" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button fx:id="B5" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Button fx:id="B6" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Button fx:id="B7" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Button fx:id="B8" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+            <Button fx:id="B9" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+            <Button fx:id="B10" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+            <Button fx:id="A2" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Button fx:id="A3" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Button fx:id="A5" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <Button fx:id="A4" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Button fx:id="A6" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <Button fx:id="A7" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <Button fx:id="A8" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+            <Button fx:id="A9" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+            <Button fx:id="A10" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+            <Button fx:id="B1" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.rowIndex="3" />
+            <Button fx:id="A1" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.rowIndex="4" />
+            <Button fx:id="D1" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.rowIndex="1" />
+            <Button fx:id="C1" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" GridPane.rowIndex="2" />
+            <Button fx:id="E1" mnemonicParsing="false" onAction="#handleSelectOnAction" prefHeight="55.0" prefWidth="55.0" />
+         </children>
+      </GridPane>
+      <Label layoutX="105.0" layoutY="396.0" text="A" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="106.0" layoutY="341.0" text="B" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="106.0" layoutY="277.0" text="C" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="105.0" layoutY="225.0" text="D" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="106.0" layoutY="166.0" text="E" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="148.0" layoutY="443.0" text="1" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="644.0" layoutY="443.0" text="10" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="sc_img" fitHeight="75.0" fitWidth="640.0" layoutX="77.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="374.0" layoutY="75.0" text="screen">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="686.0" layoutY="390.0" text="A" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="687.0" layoutY="335.0" text="B" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="687.0" layoutY="271.0" text="C" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="686.0" layoutY="219.0" text="D" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="687.0" layoutY="160.0" text="E" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="106.0" layoutY="505.0" prefHeight="35.0" prefWidth="69.0" text="Normal">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="381.0" layoutY="531.0" prefHeight="35.0" prefWidth="119.0" text="Total price =" textFill="#e10000">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="price_num" layoutX="500.0" layoutY="531.0" prefHeight="35.0" prefWidth="107.0" text="price" textFill="#5100ff">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="buy_btn" layoutX="666.0" layoutY="509.0" mnemonicParsing="false" onAction="#handleGoBuy_btnOnAction" prefHeight="82.0" prefWidth="126.0" style="-fx-background-color: #ff0000;" text="BUY" textFill="#030202">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Button>
+      <Line endX="-100.0" endY="74.0" layoutX="474.0" layoutY="513.0" startX="-100.0" />
+   </children>
+</AnchorPane>

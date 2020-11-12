@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ChooseTime2Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="600.0" stroke="BLACK" strokeType="INSIDE" width="800.0" />
+      <Line endX="693.0" layoutX="108.0" layoutY="171.0" startX="-100.0" stroke="WHITE" />
+      <Line endX="-100.0" endY="416.0" layoutX="243.0" layoutY="172.0" startX="-100.0" startY="12.0" stroke="#aeaeae" />
+      <Label layoutX="161.0" layoutY="275.0" prefHeight="35.0" prefWidth="69.0" text="Theatre 2" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_t_2" layoutX="161.0" layoutY="310.0" mnemonicParsing="false" onAction="#handleGoBtn_t_2OnAction" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #f2ff00;" text="11:30">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="161.0" layoutY="369.0" prefHeight="35.0" prefWidth="69.0" text="Theatre 3" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_t_3" layoutX="161.0" layoutY="404.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #a1a1a1;" text="10:20">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="161.0" layoutY="458.0" prefHeight="35.0" prefWidth="69.0" text="Theatre 4" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_t_4" layoutX="161.0" layoutY="493.0" mnemonicParsing="false" onAction="#handleGoBtn_t_4OnAction" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #f2ff00;" text="13:30">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="161.0" layoutY="187.0" prefHeight="35.0" prefWidth="69.0" text="Theatre 1" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_t_1" layoutX="161.0" layoutY="222.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #a1a1a1;" text="12:00">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="sound1_img" fitHeight="43.0" fitWidth="33.0" layoutX="241.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="sound2_img" fitHeight="43.0" fitWidth="33.0" layoutX="243.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="sound3_img" fitHeight="43.0" fitWidth="33.0" layoutX="243.0" layoutY="374.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="sound4_img" fitHeight="43.0" fitWidth="33.0" layoutX="245.0" layoutY="463.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="282.0" layoutY="187.0" prefHeight="35.0" prefWidth="69.0" text="ไทย" textFill="#a1a1a1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="284.0" layoutY="278.0" prefHeight="35.0" prefWidth="69.0" text="อังกฤษ" textFill="#a1a1a1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="284.0" layoutY="369.0" prefHeight="35.0" prefWidth="69.0" text="อังกฤษ" textFill="#a1a1a1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="284.0" layoutY="458.0" prefHeight="35.0" prefWidth="69.0" text="ไทย" textFill="#a1a1a1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_back" alignment="TOP_LEFT" layoutX="15.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleGoBtn_backOnAction" prefHeight="35.0" prefWidth="69.0" style="-fx-background-color: transparent;" text="back" textFill="#f2ff00">
+         <graphic>
+            <ImageView fx:id="ya" fitHeight="33.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <ImageView fx:id="dx_img" fitHeight="100.0" fitWidth="123.0" layoutX="21.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imax_img" fitHeight="100.0" fitWidth="123.0" layoutX="21.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="btn_t_11" layoutX="258.0" layoutY="222.0" mnemonicParsing="false" onAction="#handleGoBtn_t_1OnAction" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #f2ff00;" text="15:30">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_t_12" layoutX="360.0" layoutY="222.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #a1a1a1;" text="19:00">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_t_21" layoutX="260.0" layoutY="310.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #a1a1a1;" text="14:20">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_t_22" layoutX="362.0" layoutY="310.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #a1a1a1;" text="18:40">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_t_31" layoutX="260.0" layoutY="404.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #a1a1a1;" text="16:00">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_t_32" layoutX="362.0" layoutY="404.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #a1a1a1;" text="20:10">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_t_41" layoutX="260.0" layoutY="493.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #a1a1a1;" text="16:40">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_t_42" layoutX="362.0" layoutY="493.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #a1a1a1;" text="19:50">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_t_13" layoutX="457.0" layoutY="222.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #a1a1a1;" text="21:00">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_t_211" layoutX="459.0" layoutY="310.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #a1a1a1;" text="22:10">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_t_311" layoutX="459.0" layoutY="404.0" mnemonicParsing="false" onAction="#handleGoBtn_t_3OnAction" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #f2ff00;" text="23:20">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_t_421" layoutX="459.0" layoutY="493.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #a1a1a1;" text="22:40">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="ps_img" fitHeight="150.0" fitWidth="123.0" layoutX="82.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="213.0" layoutY="15.0" prefHeight="35.0" prefWidth="168.0" text="Toy Story 4" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="213.0" layoutY="48.0" prefHeight="26.0" prefWidth="106.0" text="Minute: 100 " textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="des_txt" layoutX="552.0" layoutY="176.0" prefHeight="196.0" prefWidth="238.0" textFill="WHITE" />
+      <MediaView fx:id="tl_media" fitHeight="150.0" fitWidth="250.0" layoutX="538.0" layoutY="14.0" />
+   </children>
+</AnchorPane>
